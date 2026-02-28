@@ -1,0 +1,38 @@
+
+        
+        body{
+            margin: 0%;
+            padding: 0%;
+        }
+        .Grid{
+            background-color: rgb(245, 241, 241);
+            height: 100vh;
+            display: grid;
+         grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            grid-template-rows: 1fr;
+
+            gap:30px;
+            padding:30px;
+            align-content: center;
+            justify-content: center;
+
+
+        }
+        .Box{
+        
+        aspect-ratio: 1/1;
+        border-radius: 30px;
+        }
+        .Box img{
+            width: 100%;
+            height: 100%;
+            border-radius: 30px;
+        }
+        h1{
+        text-align: center;
+        font-size: xx-large;
+            
+        }
+    
+  
+    
